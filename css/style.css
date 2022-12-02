@@ -22,11 +22,11 @@ article {
 
 .logo {
     display: block;
-    width: 230px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     box-sizing: border-box;
 
 }
@@ -125,6 +125,17 @@ h5 {
     font-weight: 600;
 }
 
+element {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 40px;
+    margin-bottom: 50px;
+    max-width: 640px;
+    align-items: center;
+    vertical-align: top;
+    height: 620px;
+
+}
 .box {
     border: 1px solid #dee1e3;
 }
