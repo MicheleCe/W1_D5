@@ -1,1 +1,175 @@
 /* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Open+Sans&family=Poppins:wght@400;600;900&display=swap');
+
+
+
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    
+}
+
+article {
+    box-sizing: border-box;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    display: block;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+
+}
+
+div {
+    box-sizing: border-box;
+    margin: 40px;
+    margin-bottom: 50px;
+}
+.first {
+    display: block;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+
+h1 {
+    font-size: 3rem;
+    color: #25a2c3;
+    font-family: montserrat;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #393d41;
+    font-family: Open Sans;
+    line-height: 1.65;
+}
+
+button {
+    display: block;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 600;
+    border: none;
+    padding: 15px 32px;
+    background-color: rgb(254, 85, 66);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h2 {
+    color: rgb(0, 155, 202);
+    font-size: 1.6rem;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-family: montserrat;
+    line-height: 1.5;
+    font-weight: 600;
+
+}
+
+.round-img {
+        border-radius: 50%;
+        width: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+
+.red-part {
+    background-color: red;
+    color: #fff;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.red-part h1 {
+    color: white;
+}
+
+.red-part h3 {
+    color: white;
+}
+
+h4 {
+    padding-top: 35px;
+    font-size: 1.5rem;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1rem;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+.box {
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    padding-bottom: 50px;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+.box h3 {
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(0, 179, 255);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+footer h1 {
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    font-family: Open Sans;
+    line-height: 1.65;
+}
+
+hr {
+    width: 30%;
+}
+
+p {
+    font-family: Open Sans;
+    line-height: 1.65;
+    padding-bottom: 30px;
+}
+
+p:last-child {
+    padding-top: 20px;
+}
