@@ -63,7 +63,6 @@ h3 {
 }
 
 button {
-    display: block;
     text-transform: uppercase;
     font-family: montserrat;
     font-weight: 600;
@@ -74,7 +73,6 @@ button {
     color: #fff;
     font-weight: 600;
     font-size: 1.2rem;
-    margin: auto;
     margin-top: 50px;
 }
 
@@ -82,7 +80,7 @@ h2 {
     color: rgb(0, 155, 202);
     font-size: 1.6rem;
     padding-top: 40px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     font-family: montserrat;
     line-height: 1.5;
     font-weight: 600;
@@ -138,6 +136,7 @@ h5 {
 .box h3 {
     box-sizing: border-box;  
     padding: 30px;
+    padding-top: 0;
 
 }
 
