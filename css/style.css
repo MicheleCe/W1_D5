@@ -129,7 +129,6 @@ h5 {
 
 .box {
     border: 1px solid rgba(128, 128, 128, 0.199);
-    padding-bottom: 50px;
 }
 
 .box img {
@@ -137,9 +136,9 @@ h5 {
 }
 
 .box h3 {
-    box-sizing: border-box;
-    padding: 20px;
-    padding-bottom: 50px;
+    box-sizing: border-box;  
+    padding: 30px;
+
 }
 
 footer {
