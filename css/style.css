@@ -156,9 +156,8 @@ footer a {
     font-family: Open Sans;
     line-height: 1.65;
 }
-
 hr {
-    width: 30%;
+    width: 250px;
 }
 
 p {
@@ -167,6 +166,8 @@ p {
     padding-bottom: 30px;
 }
 
+
 p:last-child {
     padding-top: 20px;
 }
+
