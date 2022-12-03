@@ -20,7 +20,7 @@ article {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     text-align: center;
-    padding-bottom: 300px;
+    padding-bottom: 15%;
     padding-top: 200px;
     margin-bottom: 100px;
 }
@@ -68,8 +68,9 @@ button {
     margin-top: 50px;
 }
 
-div {
+.top {
     display: inline-block;
+    margin: 10px;
 }
 
 h2 {
@@ -86,8 +87,8 @@ h2 {
 .round-img {
         border-radius: 50%;
         width: 600px;
-        margin-left: 500px;
-        margin-right: 300px;
+        margin-left: 12%;
+        margin-right: 18%;
 }
 
 section {
