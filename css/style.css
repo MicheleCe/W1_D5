@@ -16,7 +16,7 @@ header {
 }
 
 main {
-    max-width:500px; margin-left:auto ;margin-right:auto;
+    max-width:700px; margin-left:auto ;margin-right:auto;
 }
 
 i {
@@ -24,7 +24,7 @@ i {
 }
 
 div {
-    margin: 20px;
+    margin: 40px;
 }
 
 article {
