@@ -16,6 +16,10 @@ header {
     
 }
 
+div {
+    margin: 40px;
+}
+
 i {
     font-style: italic;
 }
