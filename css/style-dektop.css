@@ -5,7 +5,7 @@
 
 
 body {
-    box-sizing: border-box;
+
 }
 
 main {
@@ -25,7 +25,6 @@ i {
 }
 
 article {
-    box-sizing: border-box;
     padding: 40px;
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -40,7 +39,6 @@ article {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 70px;
-    box-sizing: border-box;
     
 
 }
@@ -79,6 +77,8 @@ button {
 
 .top {
     display: inline-block;
+    margin-top: 0;
+    vertical-align: top;
 }
 
 h2 {
@@ -105,7 +105,6 @@ h2 {
 }
 
 section {
-    box-sizing: border-box;
     padding: 20px;
     padding-bottom: 50px;
     background-color: red;
@@ -139,7 +138,6 @@ h5 {
     text-align: center;
 }
 element {
-    box-sizing: border-box;
     display: inline-block;
     margin: 40px;
     margin-bottom: 50px;
@@ -157,7 +155,6 @@ element img {
 }
 
 element h3 {
-    box-sizing: border-box;  
     padding: 30px;
     padding-top: 0;
 
