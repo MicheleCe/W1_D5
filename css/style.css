@@ -31,7 +31,6 @@ article {
     box-sizing: border-box;
     padding: 40px;
     margin-bottom: 50px;
-    display: block;
     background-image: url(../images/banner.jpg);
     background-position: center;
     background-size: cover;
@@ -39,7 +38,6 @@ article {
 }
 
 .logo {
-    display: block;
     width: 150px;
     margin-left: auto;
     margin-right: auto;
