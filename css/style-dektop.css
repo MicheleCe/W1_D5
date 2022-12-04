@@ -2,14 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Open+Sans&family=Poppins:wght@400;600;900&display=swap');
 
-
-
-body {
-
-}
-
 main {
-    max-width:3000px; margin-left:auto ;margin-right:auto;
+    max-width:4000px; margin-left:auto ;margin-right:auto;
+    height: 100%;
 }
 header {
     background-color: black;
@@ -161,14 +156,20 @@ element h3 {
 
 }
 
-footer {
+footer div {
     background-color: #25a2c3;
     color: #fff;
     font-size: 1rem;
     line-height: 1.65;
     margin-top: 100px;
-    
+    margin: 0;
 }
+
+.foot {
+     margin-left: 45%;
+}
+    
+
 
 footer h1 {
     color: #fff;
@@ -194,8 +195,4 @@ p:last-child {
     border-top: 1px solid #fff;
     padding-top: 20px;
     width: 250px;
-}
-
-.foot {
-    margin-left: 45%;
 }
