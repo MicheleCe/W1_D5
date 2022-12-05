@@ -70,20 +70,21 @@ button {
     margin-top: 50px;
 }
 
-
+nav {
+    text-align: center;
+}
 .round-img {
     width: 600px;
-    margin-left: 15%;
-    margin-right: 3%;
     display: inline-block;
     vertical-align: top;
 }
 
-.top {
+nav .top {
     display: inline-block;
     margin-top: 100px;
     vertical-align: top;
     max-width: 600px;
+    text-align: left;
 }
 
 h2 {
@@ -142,17 +143,20 @@ element {
     margin-bottom: 50px;
     max-width: 500px;
     vertical-align: top;
-    height: 620px;
+    height: 500px;
     border: 1px solid #dee1e3;
 
 }
 
 element img {
     width: 100%;
-    max-height: 383px;
+    max-height: 280px;
     object-fit: cover;
 }
 
+element img:nth-child(1) {
+    object-position: bottom;
+}
 element h3 {
     padding: 30px;
     padding-top: 0;
@@ -170,6 +174,7 @@ footer div {
 
 .foot {
      margin-left: 45%;
+     text-align: left;
 }
     
 
