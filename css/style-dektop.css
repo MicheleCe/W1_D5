@@ -163,22 +163,18 @@ element h3 {
 
 }
 
-footer div {
-    background-color: #25a2c3;
+.foot {
+    padding-left: 45%;
     color: #fff;
     font-size: 1rem;
     line-height: 1.65;
-    margin-top: 100px;
     margin: 0;
+    text-align: left;
 }
 
-.foot {
-     margin-left: 45%;
-     text-align: left;
+nav .foot {
+    background-color: #25a2c3;
 }
-    
-
-
 footer h1 {
     color: #fff;
 }
@@ -189,17 +185,17 @@ footer a {
     line-height: 1.65;
 }
 
-hr {
+footer hr {
     width: 30%;
 }
 
-p {
+footer p {
     font-family: Open Sans;
     line-height: 1.65;
     padding-bottom: 30px;
 }
 
-p:last-child {
+footer p:last-child {
     border-top: 1px solid #fff;
     padding-top: 20px;
     width: 250px;
