@@ -30,10 +30,10 @@ article {
 }
 
 .logo {
-    max-width: 100%;
+    width: 140px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 70px;
+    margin-left: 50px;
     
 
 }
@@ -70,6 +70,15 @@ button {
     margin-top: 50px;
 }
 
+
+.round-img {
+    width: 600px;
+    margin-left: 15%;
+    margin-right: 3%;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .top {
     display: inline-block;
     margin-top: 100px;
@@ -85,15 +94,8 @@ h2 {
     font-family: montserrat;
     line-height: 1.5;
     font-weight: 600;
-
 }
 
-.round-img {
-    width: 600px;
-    margin-left: 25%;
-    margin-right: 3%;
-    display: inline-block;
-}
 
 .round-img img {
     border-radius: 50%;
@@ -132,12 +134,13 @@ h5 {
 
 .elements {
     text-align: center;
+    margin: 30px;
 }
 element {
     display: inline-block;
     margin: 40px;
     margin-bottom: 50px;
-    max-width: 600px;
+    max-width: 500px;
     vertical-align: top;
     height: 620px;
     border: 1px solid #dee1e3;
