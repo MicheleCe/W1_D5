@@ -162,22 +162,22 @@ element h3 {
     padding-top: 0;
 
 }
-footer nav {
-    text-align: left
-}
+
 .foot {
-    padding-left: 45%;
+    text-align: left;
     color: #fff;
     font-size: 1rem;
     line-height: 1.65;
-    margin: 0;
+    margin-left: 45%;
+    margin-bottom: 0;
     
 }
 
-nav .foot {
+footer {
     background-color: #25a2c3;
-    text-align: right;
+    text-align: left;
 }
+
 footer h1 {
     color: #fff;
 }
